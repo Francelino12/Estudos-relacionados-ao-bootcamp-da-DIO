@@ -3,8 +3,48 @@
  color: blue;
 }
 .post-title{
+/*define o tamanho do texto*/
     font-size: 16px;
+/*define a fonte*/
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
     
 }
-
+body{
+/*define a cor do Elemento*/
+    background: #ccc;
+    width: 100%;
+    height: 100%;
+}
+.post{
+    background: #fff;
+    padding: 15px 10px 5px 0;
+    border: 3px solid #000;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 60%;
+}
+.post-img{
+    margin-bottom: 15px;
+    border-radius: 50px;
+    height: 60%;
+    width: 60%;
+    border-color: #000 solid;
+}
+.post-img-foto{
+    border-radius: 100%;
+    border: 3px solid black;
+}
+.link{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+#title{
+    color: #000;
+}
